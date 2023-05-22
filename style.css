@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 100%;
+    background: url(background.jpg);
+    background-position:center;
+    background-size:cover;
+    height:100vh;
+    position:relative;
+    font-family:sans-serif;
+}
+h3
+{
+    text-align: inherit;
+}
+
+.navbar{
+    width:86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0; 
+    align-items: center;
+    justify-content: space-between; 
+}
+.navbar .logo{
+    width: 50px;
+    cursor: pointer;
+    margin-top:  -1%;
+    margin-left: -2%;
+
+}
+ul{
+        margin-top:-1%;
+
+}
+ul li{
+    list-style:none;  
+    display: inline-block;
+    padding:10px 16px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight:bold;
+    text-decoration:none;
+    color:darkslategrey;
+    margin-top: -3%;
+    transition: .4s ease; 
+     
+}
+ul li a:hover{
+        color:brown;
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size:65px;
+    color :rgb(30, 11, 244);
+}
+.info h2{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+} 
+.image{
+    width: 30%;
+    height: 40%;
+    position:absolute;
+    right: 100px;
+    bottom:0;
+
+}
+.image img{
+    position: absolute;
+    height:140%;
+    left:40%;
+    transform: translate(-50%);
+    bottom:0;
+    transition: left 2s ease;
+}
+.image:hover .pic{
+    left: 55%; 
+}
+.container{
+    background-color: #c7a7c2;
+    min-height: 100px;
+    border: 10px solid #840074;
+}
+
+.content{
+    margin: 0 auto; /*top and right is 0 and left and right is auto which means center. */
+    max-width: 900px;
+}
+.top-section{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 3rem;
+    align-items: flex-end; 
+}
+
+.top-section h1{
+    font-size: 3.5rem;
+    text-align:calc() ;
+    text-transform: uppercase;
+    color: #1d1e4c;
+    font-weight: bold;
+}
+
+.top-section h4{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.about-section{
+    margin-top: 3rem;
+}
+
+.about-section h2{
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+.about-section p{
+    font-size: 1.2rem;
+    line-height: 1.6rem; 
+    text-align: justify;
+}
+
+ 
+
+
+
+
+

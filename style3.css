@@ -1,0 +1,28 @@
+.animate-charcter
+{
+   text-transform: uppercase;
+   text-align: center;
+  background-image: linear-gradient(
+    -225deg,
+    #ffffff 0%,
+    #696161 29%,
+    #0b0a0a 67%,
+    #ababa0 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 50% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  animation: textclip 5s linear infinite;
+  display: inline-block;
+ font-size: 20px;
+ text-align: center;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 100% center;
+  }
+}
